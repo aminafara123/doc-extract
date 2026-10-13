@@ -29,7 +29,21 @@ flowchart LR
 
 The LLM is the only non-deterministic step, and it only ever reads. Every number it returns is re-derived and checked by `postprocess.py` with no model in the loop, so a hallucinated total gets caught by arithmetic rather than believed.
 
-## Quickstart
+## Install
+
+```bash
+pipx install git+https://github.com/aminafara123/doc-extract
+doc-extract sample/            # extract sample/ -> out/ (needs a local LLM, see below)
+```
+
+Or from a local clone, into the current environment:
+
+```bash
+pip install .
+doc-extract sample/
+```
+
+## Quickstart (clone + make)
 
 ```bash
 make install          # venv + dependencies
