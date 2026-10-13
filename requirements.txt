@@ -1,0 +1,13 @@
+# Runtime
+pdfplumber>=0.11,<1
+pydantic>=2,<3
+requests>=2.31,<3
+
+# Sample generation + tests
+reportlab>=4,<6
+pytest>=8,<10
+
+# Optional OCR for scanned images/PDFs. Also install the `tesseract` binary
+# (e.g. `sudo apt install tesseract-ocr`). Not needed to run or to test.
+# pytesseract>=0.3,<1
+# Pillow>=10,<12

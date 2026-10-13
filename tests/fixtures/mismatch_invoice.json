@@ -1,0 +1,13 @@
+{
+  "vendor": "Northwind Traders LLC",
+  "invoice_number": "NW-5521",
+  "date": "04/18/2024",
+  "currency": "USD",
+  "line_items": [
+    {"description": "Consulting (hours)", "qty": 12, "unit_price": "150.00", "amount": "1,800.00"},
+    {"description": "Travel reimbursement", "qty": 1, "unit_price": "340.00", "amount": "340.00"}
+  ],
+  "subtotal": "2,140.00",
+  "tax": "214.00",
+  "total": "2,154.00"
+}

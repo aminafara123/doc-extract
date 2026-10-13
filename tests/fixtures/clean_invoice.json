@@ -1,0 +1,15 @@
+{
+  "vendor": "ACME Cloud Services, Inc.",
+  "invoice_number": "ACM-2024-0417",
+  "date": "March 15, 2024",
+  "currency": "USD",
+  "line_items": [
+    {"description": "Compute (vCPU-hours)", "qty": 500, "unit_price": "0.04", "amount": "$20.00"},
+    {"description": "Object storage (TB-month)", "qty": 3, "unit_price": "23.00", "amount": "$69.00"},
+    {"description": "Egress bandwidth (TB)", "qty": 2, "unit_price": "90.00", "amount": "$180.00"},
+    {"description": "Support plan (Business)", "qty": 1, "unit_price": "99.00", "amount": "$99.00"}
+  ],
+  "subtotal": "$368.00",
+  "tax": "$31.28",
+  "total": "$399.28"
+}
